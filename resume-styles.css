@@ -1,0 +1,68 @@
+/* Beginner-friendly CSS: simple properties only */
+body {
+  margin: 0;
+  padding: 20px;
+  background: #ffffff;
+  color: #111111;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.5;
+}
+.page {
+  max-width: 850px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+.header {
+  text-align: center;            /* center the name and links */
+  margin-bottom: 10px;
+}
+h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+.contact {
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+a {
+  color: #0f62fe;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h2 {
+  font-size: 20px;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.section {
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+.dates {
+  float: right;                  /* simple way to show dates on the right */
+}
+ul {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+li {
+  margin: 4px 0;
+}
+hr {
+  border: 0;
+  border-top: 3px solid #333333; /* bolder horizontal rules */
+  margin: 14px 0;
+}
+@media print {
+  body {
+    padding: 0;
+  }
+  a {
+    color: #000000;
+    text-decoration: none;  
+  }
+}
